@@ -11,9 +11,9 @@ Save the file cooling_fan.py at a convenient location e.g. /home/pi/cooling_fan.
 Update variable values in the file
 
 > BCM_output_pin=18   #GPIO pin for PWM output
-ontemp=60           #in deg C         
-offtemp=55          #in deg C
-max_fan_speed=80	  # maximum speed in percent 0-100
+> ontemp=60           #in deg C      
+> offtemp=55          #in deg C
+> max_fan_speed=80	  # maximum speed in percent 0-100
 
 Execute and test
 
