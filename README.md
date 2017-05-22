@@ -14,7 +14,7 @@ Update variable values in the file
 BCM_output_pin=18   #GPIO pin for PWM output
 ontemp=60           #in deg C      
 offtemp=55          #in deg C
-max_fan_speed=80	  # maximum speed in percent 0-100
+max_fan_speed=80	# maximum speed in percent 0-100
 ```
 
 Execute and test
@@ -31,7 +31,7 @@ Add to cron
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU General Public License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
