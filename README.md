@@ -10,14 +10,18 @@ Save the file cooling_fan.py at a convenient location e.g. /home/pi/cooling_fan.
 
 Update variable values in the file
 
-> BCM_output_pin=18   #GPIO pin for PWM output
-> ontemp=60           #in deg C      
-> offtemp=55          #in deg C
-> max_fan_speed=80	  # maximum speed in percent 0-100
+```python
+BCM_output_pin=18   #GPIO pin for PWM output
+ontemp=60           #in deg C      
+offtemp=55          #in deg C
+max_fan_speed=80	  # maximum speed in percent 0-100
+```
 
 Execute and test
 
-> sudo python /home/pi/cooling_fan.py
+```bash
+sudo python /home/pi/cooling_fan.py
+```
 
 Add to cron
 
