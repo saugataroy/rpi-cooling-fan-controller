@@ -6,9 +6,17 @@ What may really harm a Pi, however, is a fan directly connected to the GPIO. A s
 
 ### Installing
 
-Save the file at a convenient location e.g. /home/pi
+Save the file cooling_fan.py at a convenient location e.g. /home/pi/cooling_fan.py
 
-Update the upper and lower temperature threshold values in the file
+Update variable values in the file
+
+  BCM_output_pin=18   #GPIO pin for PWM output
+  ontemp=60           #in deg C         
+  offtemp=55          #in deg C
+  max_fan_speed=80	  # maximum speed in percent 0-100
+
+Execute and test
+  sudo python /home/pi/cooling_fan.py
 
 Add to cron
 
